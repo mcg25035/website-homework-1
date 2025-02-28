@@ -1,23 +1,28 @@
 import logo from './logo.svg';
+import oiiai from './oiiai.gif';
 import './App.css';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={oiiai} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          非常抱歉，該網站目前正在維護中<br />
+          無法提供服務，請稍後再來！
         </p>
+        {/* <button>當系統恢復運作時，通知我！</button> */}
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          當系統恢復運作時，通知我！
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
