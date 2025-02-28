@@ -15,11 +15,11 @@ function App() {
         {/* <button>當系統恢復運作時，通知我！</button> */}
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://status.mcloudtw.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          當系統恢復運作時，通知我！
+          查看服務狀態
         </a>
       </header>
       <Footer />

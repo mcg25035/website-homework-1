@@ -1,6 +1,8 @@
 
 .App {
   text-align: center;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -13,7 +15,7 @@
 
 .App-header {
   background: rgba(33, 33, 33, 255);
-  min-height: 100vh;
+  min-height: 94vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,13 +31,4 @@
 .App-link {
   color: rgba(96, 165, 250, 255);
   font-size: 1.25rem;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
